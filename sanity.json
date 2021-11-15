@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "ut7wfqa1",
+    "dataset": "production"
+  },
   "project": {
     "name": "L52"
-  },
-  "api": {
-    "projectId": "nbtoca7u",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -46,7 +46,7 @@
     {
       "implements": "part:@sanity/form-builder/input/image/asset-sources",
       "path": "./parts/assetSources.js"
-    },    
+    },
     {
       "implements": "part:@sanity/production-preview/resolve-production-url",
       "path": "./utils/resolveProductionUrl.js"
