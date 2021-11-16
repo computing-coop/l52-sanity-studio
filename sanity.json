@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "L52"
+    "name": "Leisure Coop"
   },
   "plugins": [
     "@sanity/base",
